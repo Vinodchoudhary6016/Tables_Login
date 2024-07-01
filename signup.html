@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XCareers Signup</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+
+</head>
+<style>
+    table,
+    td,
+    th {
+        border: 2px groove black;
+        border-collapse: collapse;
+    }
+</style>
+
+
+<body>
+    <fieldset>
+        <legend align="center">
+            <h1>Sign Up</h1>
+        </legend>
+
+        <form method="post">
+            <ion-icon name="person-circle-outline"></ion-icon> <label for="fname">First Name :</label>
+            <input type="text" id="fname" required placeholder="eg:John"><br><br>
+
+            <ion-icon name="person-circle-outline"></ion-icon><label for="sname">Second Name :</label>
+            <input type="text" id="sname" required placeholder="eg:Doe"><br><br>
+
+            <ion-icon name="mail-outline"></ion-icon><label for="mail"> Email :</label>
+            <input type="mail" id="mail" required placeholder="xyz@gmail.com"><br><br>
+
+            <ion-icon name="school-outline"></ion-icon> <label for="college">College Name :</label>
+            <input list="Programming" name="Programming" required re>
+            <datalist id="Programming">
+                <option value="Malla Reddy College">
+                <option value="Anurag College">
+                <option value="Narsimha Reddy College">
+                <option value="Sreenidhi College">
+                <option value="CBIT"></option>  
+            </datalist> <br><br>
+
+            <ion-icon name="alert-outline"></ion-icon> <label for="age">Age : </label>
+            <input type="number" id="Age" required><br><br>
+
+            <ion-icon name="male-female-outline"></ion-icon><label for="gender"> Gender :</label>
+            <input type="radio" value="Male" name="gen">Male
+            <input type="radio" value="Female" name="gen">Female <br><br>
+
+            <ion-icon name="book-outline"></ion-icon> <label for="">Qualification : </label>
+            <select name="" id="" required>
+            <OPtion></OPtion>
+            <option value="">B.Tech</option>
+            <option value="">B.E</option>
+            <OPTIOn>MBA</OPTIOn>
+            </select> <br><br>
+
+            <ion-icon name="document-outline"></ion-icon> <label>Upload your Resume : </label> <input type="file" name="" id="">
+            <br><br>
+
+            <ion-icon name="call-outline"></ion-icon> <label for="ph">Mobile Number : </label>
+            <input type="tel" id="ph" pattern="[0-9]{10}" placeholder="1234567890"><br><br>
+
+            <ion-icon name="eye-outline"></ion-icon> <label for="pswd">password :</label>
+            <input type="password" id="pswd"> <br><br>
+
+            <ion-icon name="calendar-number-outline"></ion-icon> <label for="">Date of Registering : </label>
+            <input type="datetime-local"><br><br>
+
+            <input type="checkbox" required>
+            <label for="">Click Here to Accept Terms & Conditions</label><br><br>
+
+            <center>
+                <input type="submit" value="SignUp">
+                <input type="reset" name="" id="">
+            </center>
+        </form>
+        </form>
+    </fieldset>
+    <table>
+        <tr>
+            <tr>
+                <th colspan="8" style="background-color: grey ;">Acadamic Year:2022-2023 <br>III BTECH II SEM- YIME TABLE
+                </th>
+                <!-- <td>class2</td> -->
+                <!-- <td>class3</td> -->
+                <!-- <td>class4</td> -->
+                <!-- <td>class5</td> -->
+                <!-- <td>class6</td> -->
+                <!-- <td>class7</td> -->
+                <!-- <td>class8</td> -->
+
+            </tr>
+
+            <tr>
+                <th>HOUR</th>
+                <td>I</td>
+                <td>II</td>
+                <td>III</td>
+                <td>IV</td>
+                <td rowspan="8" style="writing-mode: vertical-lr;text-orientation:upright;">
+                    <center><br><br>LUNCH <br><br><br></center>
+                </td>
+                <td>VI</td>
+                <td>VII</td>
+            </tr>
+            <tr>
+                <th>DAY</th>
+                <td>9:30AM <br>-10:20AM
+                    <td>10:20AM <br>-11:10AM</td>
+                    <td>11:10 <br>-12:00PM</td>
+                    <td>12:00PM <br>-12:50PM</td>
+                    <!-- <td>class6</td> -->
+                    <td>1:30PM <br>-2:30PM</td>
+                    <td>2:30PM <br>-3:30PM</td>
+
+            </tr>
+            <tr>
+                <th>Mon</th>
+                <td>SL</td>
+                <td>MAD</td>
+                <td>ES&D</td>
+                <td>DWDM</td>
+                <!-- <td>class6</td> -->
+                <td colspan="2">
+                    <----MAD LAB----->
+                </td>
+                <!-- <td>class8</td> -->
+
+            </tr>
+            <tr>
+                <th>Tue</th>
+                <td>DWDM</td>
+                <td>ES&D</td>
+                <td>IC</td>
+                <td>SL</td>
+                <!-- <td>class6</td> -->
+                <td colspan="2">
+                    <---- AD - II ------>
+                </td>
+                <!-- <td>class8</td> -->
+            </tr>
+            <tr>
+                <th>wed</th>
+                <td>MAD</td>
+                <td>ES&D</td>
+                <td>IC</td>
+                <td>SL</td>
+                <!-- <td>class6</td> -->
+                <td>DWDM</td>
+                <td>R&A</td>
+            </tr>
+            <tr>
+                <th>thur</th>
+                <td>R&A</td>
+                <td>ES&D</td>
+                <td>R&A</td>
+                <td>SL</td>
+                <!-- <td>CLASS</td> -->
+                <td>DWDM</td>
+                <td>R&A</td>
+            </tr>
+            <tr>
+                <th>fri</th>
+                <td>ES&D</td>
+                <td>R&A</td>
+                <td>DWDM</td>
+                <td>MAD</td>
+                <!-- <td>class6</td> -->
+                <td colspan="2">
+                    < DWDM LAB> </DWDM>
+                </td>
+                <!-- <td>class8</td> -->
+            </tr>
+            <tr>
+                <th>sat</th>
+                <td>R&A</td>
+                <td>SL</td>
+                <td>IC</td>
+                <td>DWDM</td>
+                <!-- <td>cla</td> -->
+                <td>SL(T)</td>
+                <td>MAD</td>
+            </tr>
+
+    </table>
+
+</body>
+
+</html>
